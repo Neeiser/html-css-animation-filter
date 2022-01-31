@@ -100,3 +100,35 @@
     border-radius: 20px;
     filter: grayscale(80%) sepia(50%);
 }
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon{
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinning{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
