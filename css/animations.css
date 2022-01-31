@@ -165,3 +165,27 @@
     right: 60%;
 }
 /* Indagare per farlo tornare indietro velocemente */
+
+/* ESERCIZIO 13 */
+
+.ex-13-top-white{
+    transition: top left bottom right 2s linear;
+}
+
+.ex-13-bottom-white{
+    transition: top left bottom right 2s linear;
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    top: -10px;
+    left: 60%;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    bottom: -10px;
+    right: 60%;
+}
+
+/*  - Come si fa a mettere più di un processo di transizione nello stesso div?
+    - Nel transition devo mettere tutte le posizioni.
+    - Non posso usare il @keyframe perchè sennò non mi va l'hover*/
