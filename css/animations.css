@@ -132,3 +132,18 @@
         transform: rotate(360deg);
     }
 }
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon{
+    transition: transform 1s linear;
+}
+
+.ex-11-icon:hover{
+    transform: rotate(300deg);
+}
+/* Indagare per farlo tornare indietro velocemente */
+
+
+/* ESERCIZIO 12 */
+
