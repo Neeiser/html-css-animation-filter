@@ -236,6 +236,17 @@
 }
 
 
+/* Commenti precedenti alla visione della soluzione */
+
 /*  - Come si fa a mettere più di un processo di transizione nello stesso div?
     - Nel transition devo mettere tutte le posizioni.
     - Non posso usare il @keyframe perchè sennò non mi va l'hover*/
+
+
+
+/* Commenti post soluzione */
+
+/*  - Pensavo che solo l'esercizio 10 richiedesse il keyframes animation
+    - Non posso usare il @keyframe perchè sennò non mi va l'hover
+        > Il keyframe andava sotto, non sulla stessa riga della dichiarazione. 
+    */
