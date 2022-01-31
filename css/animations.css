@@ -76,3 +76,14 @@
 .ex-7-img:hover{
     filter: sepia(50%) contrast(90%);
 }
+
+/* ESERCIZIO 8 */ 
+
+.ex-8-img{
+    transition: border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: saturate(30%) sepia(40%);
+}
