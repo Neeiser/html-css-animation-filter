@@ -87,3 +87,16 @@
     border-radius: 20px;
     filter: saturate(30%) sepia(40%);
 }
+
+/* ESERCIZIO 9 */
+
+.ex-9-img{
+    transition: width 2s, margin 2s, filter 2s, border-radius 2s; 
+}
+
+.ex-9-img:hover{
+    width: 575px;
+    margin: 0px 0px;
+    border-radius: 20px;
+    filter: grayscale(80%) sepia(50%);
+}
