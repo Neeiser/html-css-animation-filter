@@ -60,3 +60,9 @@
 }
 
 /* Non sono sicuro di aver fatto bene a toccare il margine */
+
+/* ESERCIZIO 6 */ 
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
