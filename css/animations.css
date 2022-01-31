@@ -135,13 +135,21 @@
 
 /* ESERCIZIO 11 */
 
-.ex-11-icon{
-    transition: transform 1s linear;
+.ex-11-icon:hover {
+    animation: spinning-315 2s linear;
+}
+@keyframes spinning-315 {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 
-.ex-11-icon:hover{
-    transform: rotate(300deg);
-}
 /* Indagare per farlo tornare indietro velocemente */
 
 
@@ -189,4 +197,3 @@
 /*  - Come si fa a mettere più di un processo di transizione nello stesso div?
     - Nel transition devo mettere tutte le posizioni.
     - Non posso usare il @keyframe perchè sennò non mi va l'hover*/
-    
